@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:layout_height="wrap_content"
+    android:focusable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/image_layout"
+            android:layout_width="60sp"
+            android:layout_margin="15sp"
+            android:layout_height="60sp">
+            <ImageView
+                android:id="@+id/song_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:background="@drawable/headphone"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_toRightOf="@+id/image_layout"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:id="@+id/song_title"
+                android:text="Chitta Kurta"
+                android:textColor="@color/colorAccent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:id="@+id/song_artist"
+                android:text="Karan Ahuja"
+                android:textColor="@color/black_trans"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#D7E1E0E0"
+        android:layout_height="0.6sp" />
+
+</LinearLayout>

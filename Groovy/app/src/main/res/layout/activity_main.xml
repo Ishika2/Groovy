@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorAccent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:background="#fff"
+                android:padding="4sp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/search_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:drawableEnd="@drawable/search"
+                    android:drawablePadding="10sp"
+                    android:hint="Search"
+                    android:includeFontPadding="true"
+                    android:textColorHint="#CAC6C6" />
+
+            </LinearLayout>
+
+            <!--        <ImageView-->
+            <!--            android:id="@+id/search_mag_icon"-->
+            <!--            android:layout_width="25sp"-->
+            <!--            android:src="@drawable/search"-->
+            <!--            android:layout_height="25sp"-->
+            <!--            android:layout_centerVertical="true"-->
+            <!--            android:layout_alignParentEnd="true"-->
+            <!--            android:layout_marginEnd="15sp"-->
+            <!--            app:tint="#000000" />-->
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <include layout="@layout/playmusic_layout"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Hello World!"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent" />-->

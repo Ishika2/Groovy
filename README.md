@@ -1,11 +1,11 @@
 # Groovy
-A music player app
+## A music player app
 
-This project was made during Microsoft Engage 2022
+### This project was made during Microsoft Intern Engage 2022
 
 It's a recommendation engine which recommends a queue of 10 songs when a user searches for a song.
 
-The recommendation engine here is collaborative and uses K-Means Clustering Algorithm to recommend cool songs.
+The recommendation engine used here is collaborative and uses K-Means Clustering Algorithm to recommend songs accorinng to users' search song.
 
 Steps to run the app at your interface
 1. Install and setup Android Studio. Follow [this link](https://developer.android.com/studio/install) for complete installation and setup guide.

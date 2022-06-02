@@ -19,3 +19,6 @@ Steps to run the app at your interface
 
 https://user-images.githubusercontent.com/72547681/171719982-323815e5-0da1-4c65-8e7d-3781ce3eb810.mp4
 
+![ss2](https://user-images.githubusercontent.com/72547681/171721905-e9dd8e65-c3cd-4965-b1c4-3854023ad23b.png)
+![ss3](https://user-images.githubusercontent.com/72547681/171721916-3f49b544-4bc3-4f53-8f9e-cb08b6f56b09.png)
+![ss1](https://user-images.githubusercontent.com/72547681/171721956-c1843a04-6d83-45ef-bf7d-a6ffb43d59c7.png)

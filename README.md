@@ -7,7 +7,7 @@ It's a recommendation engine which recommends a queue of 10 songs when a user se
 
 The recommendation engine used here is collaborative and uses K-Means Clustering Algorithm to recommend songs accorinng to users' search song.
 
-Steps to run the app at your interface
+#### Steps to run the app at your interface
 1. Install and setup Android Studio. Follow [this link](https://developer.android.com/studio/install) for complete installation and setup guide.
 2. Clone the repository
 3. Open Android Studio
